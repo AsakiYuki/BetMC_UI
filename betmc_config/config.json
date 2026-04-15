@@ -1,54 +1,53 @@
 {
-  "namespace": "betmc_config",
-  "betmc_main_config": {
-    "$betmc_compass_id|default": 423, //COMPASS ITEM ID
-    "$betmc_clock_id|default": 425, //CLOCK ITEM ID
-    "$betmc_recovery_compass_id|default": 688, //RECOVERY COMPASS ITEM ID
+	"namespace": "betmc_config",
+	"betmc_main_config": {
+		"$betmc_compass_id": 423, //COMPASS ITEM ID
+		"$betmc_clock_id": 425, //CLOCK ITEM ID
+		"$betmc_recovery_compass_id": 688, //RECOVERY COMPASS ITEM ID
 
-    "$betmc_bow_id|default": 331, //BOW ITEM ID
-    "$betmc_crossbow_id|default": 614, //CROSSBOW ITEM ID
-    "$betmc_arrow_id|default": 332, //ARROW ITEM ID
+		"$betmc_bow_id": 331, //BOW ITEM ID
+		"$betmc_crossbow_id": 614, //CROSSBOW ITEM ID
+		"$betmc_arrow_id": 332, //ARROW ITEM ID
 
-    "$betmc_hide_enchanted_text|default": true, //HIDE ENCHANTED ITEM TEXT | true/false
-    "$betmc_show_text_background|default": true, //SHOW BACKGROUND ITEM TEXT | true/false
-    "$betmc_enable_chunk_position|default": true, //SHOW CHUNK POSITITON LABEL | true/false
-    "$betmc_enable_nether_position|default": false, //SHOW NETHER POSITION LABEL | true/false
-    "$betmc_enable_overworld_position|default": false, //SHOW OVERWORLD POSITION LABEL | true/false
-    "$betmc_enable_item_id|default": false, //SHOW ITEM ID VIEWER LABEL | true/false
-    "$betmc_enable_highlight_items|default": true, //SHOW HIGHLIGHT ITEMS | true/false
-    
-    "$betmc_enable_world_folder|default": true, //ENABLE WORLD FOLDER IN PLAY SCREEN (WINDOWS, IOS, ANDROID ONLY)
-    
-    "$betmc_start_label_font_type|default": "NotoSans", //FONT TYPE ( NotoSans | Nunito | ComicRelief | SamsungOne700)
-    "$betmc_button_text_font_type|default": "NotoSans", //FONT TYPE ( NotoSans | Nunito | ComicRelief | SamsungOne700)
-    "$betmc_label_font_type|default": "NotoSans", //FONT TYPE ( NotoSans | Nunito | ComicRelief | SamsungOne700)
-    "$betmc_dialog_font_type|default": "NotoSans", //FONT TYPE ( NotoSans | Nunito | ComicRelief | SamsungOne700)
+		"$betmc_hide_enchanted_text": true, //HIDE ENCHANTED ITEM TEXT | true/false
+		"$betmc_show_text_background": true, //SHOW BACKGROUND ITEM TEXT | true/false
+		"$betmc_enable_chunk_position": true, //SHOW CHUNK POSITITON LABEL | true/false
+		"$betmc_enable_nether_position": false, //SHOW NETHER POSITION LABEL | true/false
+		"$betmc_enable_overworld_position": false, //SHOW OVERWORLD POSITION LABEL | true/false
+		"$betmc_enable_item_id": false, //SHOW ITEM ID VIEWER LABEL | true/false
+		"$betmc_enable_highlight_items": true, //SHOW HIGHLIGHT ITEMS | true/false
 
-    "$betmc_use_button_icon|default": false, // true/false
-    "$betmc_settings_button_icon_textures|default": "betmc_res/betmc_button/betmc_transparent", // PATH BUTTON SETTING ICON IMAGE
-    "$betmc_button_icon_textures|default": "betmc_res/betmc_button/betmc_transparent", // PATH BUTTON ICON IMAGE
-    "$betmc_icon_color|default": [ 1.0, 1.0, 1.0], // ICON COLOR R,G,B
-    "$betmc_progress_bg_color|default": [ 0.0, 0.0, 0.0 ], // PROGRESS BG CONTENT COLOR R,G,B
+		"$betmc_enable_world_folder": true, //ENABLE WORLD FOLDER IN PLAY SCREEN (WINDOWS, IOS, ANDROID ONLY)
 
-    "$betmc_use_dialog_background|default": true, // true/false
-    "$betmc_use_dialog_broder|default": false, // true/false
+		"$betmc_start_label_font_type": "NotoSans", //FONT TYPE ( NotoSans | Nunito | ComicRelief | SamsungOne700)
+		"$betmc_button_text_font_type": "NotoSans", //FONT TYPE ( NotoSans | Nunito | ComicRelief | SamsungOne700)
+		"$betmc_label_font_type": "NotoSans", //FONT TYPE ( NotoSans | Nunito | ComicRelief | SamsungOne700)
+		"$betmc_dialog_font_type": "NotoSans", //FONT TYPE ( NotoSans | Nunito | ComicRelief | SamsungOne700)
 
-    "$use_gradient_renderer|default": true, // true/false | GRADIENT RENDER
-    "$use_setting_black_background_layer|default": true, // true/false | BLACK LAYER SETTING BACKGROUND
+		"$betmc_use_button_icon": false, // true/false
+		"$betmc_settings_button_icon_textures": "betmc_res/betmc_button/betmc_transparent", // PATH BUTTON SETTING ICON IMAGE
+		"$betmc_button_icon_textures": "betmc_res/betmc_button/betmc_transparent", // PATH BUTTON ICON IMAGE
+		"$betmc_icon_color": [1.0, 1.0, 1.0], // ICON COLOR R,G,B
+		"$betmc_progress_bg_color": [0.0, 0.0, 0.0], // PROGRESS BG CONTENT COLOR R,G,B
 
-    "$use_background_static_customs|default": true, // true/false | MAIN CUSTOM BACKGROUND
-    "$use_setting_background_static_customs|default": true, // true/false | SETTING CUSTOM BACKGROUND
-    "$use_background_animation|default": false, // true/false | BACKGROUND ANIMATION
-    "$betmc_frame_duration|default": 0.04, // FARME DURATION
+		"$betmc_use_dialog_background": true, // true/false
+		"$betmc_use_dialog_broder": false, // true/false
 
-    "$betmc_back_button_with_label|default": true, // true/false
+		"$use_gradient_renderer": true, // true/false | GRADIENT RENDER
+		"$use_setting_black_background_layer": true, // true/false | BLACK LAYER SETTING BACKGROUND
 
-    "$black_background_layer_alpha|default": 0.65, // ALPHA VALUE
-    "$betmc_color_gradient_renderer|default": [ 0, 0, 0, 0.8 ], // COLOR R, G, B, A
-    "$betmc_scr_backround_path|default": "textures/ui/Black", // PATH IMAGE
-    
-    "$betmc_stack_vertical_with_controls_size|default": [ 0, 0 ], //SIZE PANEL
-    "$betmc_stack_horizontal_with_controls_size|default": [ 0, 0 ] //SIZE PANEL
-  }
+		"$use_background_static_customs": true, // true/false | MAIN CUSTOM BACKGROUND
+		"$use_setting_background_static_customs": true, // true/false | SETTING CUSTOM BACKGROUND
+		"$use_background_animation": false, // true/false | BACKGROUND ANIMATION
+		"$betmc_frame_duration": 0.04, // FARME DURATION
 
+		"$betmc_back_button_with_label": true, // true/false
+
+		"$black_background_layer_alpha": 0.65, // ALPHA VALUE
+		"$betmc_color_gradient_renderer": [0, 0, 0, 0.8], // COLOR R, G, B, A
+		"$betmc_scr_backround_path": "textures/ui/Black", // PATH IMAGE
+
+		"$betmc_stack_vertical_with_controls_size": [0, 0], //SIZE PANEL
+		"$betmc_stack_horizontal_with_controls_size": [0, 0] //SIZE PANEL
+	}
 }
